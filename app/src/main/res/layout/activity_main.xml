@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/a111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <LinearLayout
+            android:id="@+id/rasp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <TableLayout
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerInParent="true"
+                android:background="#8F92C5ED"
+                android:clickable="true">
+
+                <TableRow
+                    android:id="@+id/week"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:background="#4A2196F3"
+                        android:text="Понедельник"
+                        android:textColor="@color/black"
+                        android:textSize="23dp">
+
+                    </TextView>
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="3dp"
+                        android:layout_height="wrap_content"
+                        android:text="Перейти"
+                        android:layout_gravity="left"
+                        android:textColor="#9C070707"
+                        android:backgroundTint="#20FFFFFF">
+
+                    </Button>
+
+
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/discipline"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/week"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Информатика"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Иванов Иван Иванович"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/time"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/discipline"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="8:00-9:30"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ауд. 426"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/url"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ссылка на зум:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Логин: 81964757167 Пароль: 123"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/discipline0"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/url"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Архитектура предприятия"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Петров Петр Петровч"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/time0"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/discipline"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="9:00-9:40"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ауд. 543"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/url0"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ссылка на зум:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Логин: 81964757167 Пароль: 123"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a222"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:clickable="true">
+
+            <TableLayout
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/one"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:background="#8F92C5ED"
+                android:clickable="true">
+
+                <TableRow
+                    android:id="@+id/week1"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:background="#4A2196F3"
+                        android:text="Вторник"
+                        android:textColor="@color/black"
+                        android:textSize="23dp"></TextView>
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="3dp"
+                        android:layout_height="wrap_content"
+                        android:text="Перейти"
+                        android:layout_gravity="left"
+                        android:textColor="#9C070707"
+                        android:backgroundTint="#20FFFFFF">
+
+                    </Button>
+                </TableRow>
+
+
+                <TableRow
+                    android:id="@+id/discipline1"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/week1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Информатика"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Иванов Иван Иванович"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/time1"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/discipline1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="8:00-9:30"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ауд. 426"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/url1"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ссылка на зум:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Логин: 81964757167 Пароль: 123"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/discipline11"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/week1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Физич.культ."
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Федоров Федор Федоровч"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/time12"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/discipline1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="11:25-12:55"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ауд. 543"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/url133"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ссылка на зум:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Логин: 81964757167 Пароль: 123"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/discipline111"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/week1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Иностр.язык"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Германов Герман Геоманович"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/time122"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/discipline1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="13:20-14:55"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ауд. 878"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/url13"
+                    android:layout_width="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/time1"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Ссылка на зум:"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:text="Логин: 81964757167 Пароль: 123"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"></TextView>
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
