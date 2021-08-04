@@ -18,8 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Day1">
-        </activity>
+            <activity android:name=".Day1"/>
+            <activity android:name=".Day2"/>
+
+
     </application>
 
 </manifest>
