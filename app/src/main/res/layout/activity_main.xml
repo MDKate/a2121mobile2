@@ -28,7 +28,7 @@
 
             <TableLayout
                 android:id="@+id/one"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
                 android:layout_centerInParent="true"
@@ -37,7 +37,7 @@
 
                 <TableRow
                     android:id="@+id/week"
-                    android:layout_width="10dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
@@ -51,170 +51,14 @@
                         android:textSize="23dp">
 
                     </TextView>
-
                     <Button
                         android:id="@+id/button1"
                         android:layout_width="3dp"
                         android:layout_height="wrap_content"
-                        android:text="Перейти"
                         android:layout_gravity="left"
-                        android:textColor="#9C070707"
-                        android:backgroundTint="#20FFFFFF">
-
-                    </Button>
-
-
-                </TableRow>
-
-
-                <TableRow
-                    android:id="@+id/discipline"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/week"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Информатика"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Иванов Иван Иванович"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/time"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/discipline"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="8:00-9:30"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Ауд. 426"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/url"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/time"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Ссылка на зум:"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Логин: 81964757167 Пароль: 123"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/discipline0"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/url"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Архитектура предприятия"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:layout_width="10dp"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Петров Петр Петровч"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/time0"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@id/discipline"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="9:00-9:40"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Ауд. 543"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-                </TableRow>
-
-                <TableRow
-                    android:id="@+id/url0"
-                    android:layout_width="10dp"
-                    android:layout_height="wrap_content"
-                    android:layout_below="@+id/time"
-                    android:layout_marginTop="5dp"
-                    android:orientation="horizontal">
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Ссылка на зум:"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:text="Логин: 81964757167 Пароль: 123"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"></TextView>
+                        android:backgroundTint="#20FFFFFF"
+                        android:text="Перейти"
+                        android:textColor="#9C070707"></Button>
                 </TableRow>
             </TableLayout>
         </LinearLayout>
