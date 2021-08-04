@@ -14,45 +14,74 @@
         android:orientation="vertical">
 
         <SearchView
+            android:id="@+id/search"
             android:layout_width="400dp"
             android:layout_height="wrap_content"
 
             />
 
         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4F0F76C8"
+                android:ems="12"
+                android:text="1 неделя"
+                android:textColor="@color/black"></Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#4F0F76C8"
+                android:ems="13"
+                android:text="2 неделя"
+                android:textColor="@color/black"></Button>
+        </LinearLayout>
+
+        <LinearLayout
             android:id="@+id/rasp1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:orientation="vertical"
-            android:clickable="true">
+            android:clickable="true"
+            android:orientation="vertical">
 
 
-                <TableRow
-                    android:id="@+id/week"
+            <TableRow
+                android:id="@+id/week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_marginRight="10dp"
+                    android:background="#142196F3"
+                    android:text="Понедельник"
+                    android:textColor="@color/black"
+                    android:textSize="23dp">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:background="#4A2196F3"
-                        android:text="Понедельник"
-                        android:textColor="@color/black"
-                        android:textSize="23dp">
+                </TextView>
 
-                    </TextView>
-                    <Button
-                        android:id="@+id/button1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="left"
-                        android:backgroundTint="#20FFFFFF"
-                        android:text="Перейти"
-                        android:textColor="#9C070707"></Button>
-                </TableRow>
+                <TextView
+                    android:text="8:00-11:15"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20FFFFFF"
+                    android:gravity="center"
+                    android:text="Перейти"
+                    android:textColor="#9C070707"></Button>
+            </TableRow>
 
         </LinearLayout>
 
@@ -60,39 +89,206 @@
             android:id="@+id/a222"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:clickable="true">
+            android:clickable="true"
+            android:orientation="vertical">
 
-                <TableRow
-                    android:id="@+id/week1"
+            <TableRow
+                android:id="@+id/week1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_marginRight="10dp"
+                    android:background="#142196F3"
+                    android:text="Вторник"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"></TextView>
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:background="#4A2196F3"
-                        android:text="Вторник"
-                        android:textColor="@color/black"
-                        android:textSize="23dp"></TextView>
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Перейти"
-                        android:layout_gravity="left"
-                        android:textColor="#9C070707"
-                        android:backgroundTint="#20FFFFFF">
+                <TextView
+                    android:text="8:00-14:55"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
 
-                    </Button>
-                </TableRow>
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20FFFFFF"
+                    android:gravity="center"
+                    android:text="Перейти"
+                    android:textColor="#9C070707">
+
+                </Button>
+            </TableRow>
 
         </LinearLayout>
 
+        <LinearLayout
+            android:id="@+id/a333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
 
+            <TableRow
+                android:id="@+id/week12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="#142196F3"
+                    android:text="Среда"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"></TextView>
+
+                <TextView
+                    android:text="9:40-14:55"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20FFFFFF"
+                    android:gravity="center"
+                    android:text="Перейти"
+                    android:textColor="#9C070707">
+
+                </Button>
+            </TableRow>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a334"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/week123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="#142196F3"
+                    android:text="Четверг"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"></TextView>
+
+                <TextView
+                    android:text="11:25-14:55"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20FFFFFF"
+                    android:gravity="center"
+                    android:text="Перейти"
+                    android:textColor="#9C070707">
+
+                </Button>
+            </TableRow>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a3345"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/week1234"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="#142196F3"
+                    android:text="Пятница"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"></TextView>
+
+                <TextView
+                    android:text="11:25-12:55"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20FFFFFF"
+                    android:gravity="center"
+                    android:text="Перейти"
+                    android:textColor="#9C070707">
+
+                </Button>
+            </TableRow>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/a33456"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/week12345"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:background="#142196F3"
+                    android:text="Суббота"
+                    android:textColor="@color/black"
+                    android:textSize="23dp"></TextView>
+
+                <TextView
+                    android:text="00:00-00:00"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"></TextView>
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#20FFFFFF"
+                    android:gravity="center"
+                    android:text="Перейти"
+                    android:textColor="#9C070707">
+
+                </Button>
+            </TableRow>
+
+        </LinearLayout>
 
     </LinearLayout>
 

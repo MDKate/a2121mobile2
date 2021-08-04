@@ -2,9 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
-
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,10 +10,12 @@
         android:gravity="center_vertical"
         android:orientation="vertical">
 
+
         <TableRow
-            android:id="@+id/week"
+            android:id="@+id/week1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:orientation="horizontal">
 
             <TextView
@@ -23,20 +23,19 @@
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
                 android:background="#4A2196F3"
-                android:text="Понедельник"
+                android:text="Среда"
                 android:textColor="@color/black"
-                android:textSize="23dp">
-
-            </TextView>
+                android:textSize="23dp"></TextView>
 
         </TableRow>
 
 
         <TableRow
-            android:id="@+id/discipline"
+            android:id="@+id/discipline1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/week"
+            android:layout_below="@+id/week1"
+
             android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
@@ -44,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Информатика"
+                android:text="Паво"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
 
@@ -52,16 +51,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Иванов Иван Иванович"
+                android:text="Семен Семенович Семенов"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
         </TableRow>
 
         <TableRow
-            android:id="@+id/time"
+            android:id="@+id/time1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/discipline"
+            android:layout_below="@id/discipline1"
             android:layout_marginTop="5dp"
             android:background="#2A59B6FF"
             android:orientation="horizontal">
@@ -70,7 +69,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="8:00-9:30"
+                android:text="9:40-11:15"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
 
@@ -78,16 +77,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Ауд. 426"
+                android:text="Ауд. 546"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
         </TableRow>
 
         <TableRow
-            android:id="@+id/url"
+            android:id="@+id/url1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/time"
+            android:layout_below="@+id/time1"
             android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
@@ -109,19 +108,18 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/discipline0"
+            android:id="@+id/discipline11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/url"
+            android:layout_below="@+id/week1"
             android:layout_marginTop="50dp"
-
             android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Архитектура предприятия"
+                android:text="Экономика"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
 
@@ -129,16 +127,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="Петров Петр Петровч"
+                android:text="Гальчук Галя Гальевна"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
         </TableRow>
 
         <TableRow
-            android:id="@+id/time0"
+            android:id="@+id/time12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/discipline"
+            android:layout_below="@id/discipline1"
             android:layout_marginTop="5dp"
             android:background="#2A59B6FF"
             android:orientation="horizontal">
@@ -147,7 +145,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="20dp"
-                android:text="9:40-11:15"
+                android:text="11:25-12:55"
                 android:textColor="@color/black"
                 android:textSize="20dp"></TextView>
 
@@ -161,10 +159,86 @@
         </TableRow>
 
         <TableRow
-            android:id="@+id/url0"
+            android:id="@+id/url133"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/time"
+            android:layout_below="@+id/time1"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Ссылка на зум:"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Логин: 81964757167 Пароль: 123"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/discipline111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/week1"
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="История"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Давыдов Давыд Давыдович"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/time122"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/discipline1"
+            android:layout_marginTop="5dp"
+            android:background="#2A59B6FF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="13:20-14:55"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:text="Ауд. 878"
+                android:textColor="@color/black"
+                android:textSize="20dp"></TextView>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/url13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/time1"
             android:layout_marginTop="5dp"
             android:orientation="horizontal">
 
@@ -186,4 +260,6 @@
         </TableRow>
 
     </LinearLayout>
+
+
 </RelativeLayout>
